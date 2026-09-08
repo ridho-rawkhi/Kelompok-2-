@@ -1,0 +1,842 @@
+<!-- =========================
+     1 SLIDE - CONTACT MOTOGP
+     ========================= -->
+
+<section class="contact-slide">
+
+    <!-- Background decoration -->
+    <div class="speed-line line-1"></div>
+    <div class="speed-line line-2"></div>
+    <div class="speed-line line-3"></div>
+
+    <div class="contact-wrapper">
+
+        <!-- LEFT : TITLE -->
+        <div class="contact-intro">
+
+            <div class="small-title">
+                MOTO<span>GP</span> / CONTACT
+            </div>
+
+            <h1>
+                GET<br>
+                IN <span>TOUCH.</span>
+            </h1>
+
+            <p>
+                Punya pertanyaan atau ingin mengetahui lebih
+                lanjut tentang dunia MotoGP? Hubungi kami
+                melalui informasi kontak yang tersedia.
+            </p>
+
+            <div class="race-number">
+                93
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT : CONTACT -->
+        <div class="contact-box">
+
+            <div class="box-title">
+                CONTACT US
+                <span></span>
+            </div>
+
+
+            <!-- Email -->
+            <a href="mailto:info@motogp.com" class="contact-item">
+
+                <div class="contact-icon">
+                    ✉
+                </div>
+
+                <div class="contact-text">
+                    <small>EMAIL</small>
+                    <strong>info@motogp.com</strong>
+                </div>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- Phone -->
+            <a href="tel:+6281234567890" class="contact-item">
+
+                <div class="contact-icon">
+                    ☎
+                </div>
+
+                <div class="contact-text">
+                    <small>PHONE</small>
+                    <strong>+62 812 3456 7890</strong>
+                </div>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- Instagram -->
+            <a href="#" class="contact-item">
+
+                <div class="contact-icon">
+                    ◎
+                </div>
+
+                <div class="contact-text">
+                    <small>INSTAGRAM</small>
+                    <strong>@motogp</strong>
+                </div>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- Address -->
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    📍
+                </div>
+
+                <div class="contact-text">
+                    <small>LOCATION</small>
+                    <strong>Indonesia</strong>
+                </div>
+
+            </div>
+
+
+            <!-- Social -->
+            <div class="social-area">
+
+                <span>FOLLOW THE RACE</span>
+
+                <div class="social-list">
+
+                    <a href="#">IG</a>
+                    <a href="#">FB</a>
+                    <a href="#">X</a>
+                    <a href="#">YT</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bottom text -->
+    <div class="bottom-label">
+        <span>FULL SPEED AHEAD</span>
+        <span>CONTACT SECTION</span>
+    </div>
+
+</section>
+
+
+<style>
+
+/* =========================================
+   RESET KHUSUS CONTACT
+   ========================================= */
+
+.contact-slide,
+.contact-slide * {
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   MAIN SLIDE
+   ========================================= */
+
+.contact-slide {
+    position: relative;
+
+    width: 100%;
+    min-height: 100vh;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+
+    background:
+        radial-gradient(
+            circle at 80% 30%,
+            rgba(225, 6, 0, 0.20),
+            transparent 35%
+        ),
+        linear-gradient(
+            120deg,
+            #050505 0%,
+            #0d0d0d 55%,
+            #150000 100%
+        );
+
+    color: #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================================
+   BACKGROUND RED SHAPE
+   ========================================= */
+
+.contact-slide::before {
+    content: "";
+
+    position: absolute;
+
+    width: 600px;
+    height: 600px;
+
+    right: -250px;
+    top: 50%;
+
+    transform: translateY(-50%) rotate(25deg);
+
+    border: 100px solid rgba(225, 6, 0, 0.08);
+
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+
+/* =========================================
+   BACKGROUND NUMBER
+   ========================================= */
+
+.contact-slide::after {
+    content: "GP";
+
+    position: absolute;
+
+    right: 20px;
+    bottom: -100px;
+
+    font-family: Impact, sans-serif;
+
+    font-size: 320px;
+    font-style: italic;
+
+    color: rgba(255,255,255,0.025);
+
+    pointer-events: none;
+}
+
+
+/* =========================================
+   SPEED LINES
+   ========================================= */
+
+.speed-line {
+    position: absolute;
+
+    height: 2px;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(225, 6, 0, 0.7),
+        transparent
+    );
+
+    transform: rotate(-12deg);
+
+    opacity: 0.6;
+}
+
+.line-1 {
+    width: 500px;
+    right: -100px;
+    top: 20%;
+}
+
+.line-2 {
+    width: 350px;
+    right: 100px;
+    top: 24%;
+}
+
+.line-3 {
+    width: 450px;
+    left: -150px;
+    bottom: 18%;
+}
+
+
+/* =========================================
+   WRAPPER
+   ========================================= */
+
+.contact-wrapper {
+    position: relative;
+
+    z-index: 2;
+
+    width: 90%;
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1fr;
+
+    gap: 80px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   LEFT CONTENT
+   ========================================= */
+
+.contact-intro {
+    position: relative;
+}
+
+
+.small-title {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+
+    color: #aaa;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    letter-spacing: 4px;
+}
+
+.small-title::before {
+    content: "";
+
+    width: 40px;
+    height: 3px;
+
+    background: #e10600;
+
+    transform: skew(-20deg);
+}
+
+.small-title span {
+    color: #e10600;
+}
+
+
+.contact-intro h1 {
+    margin: 0;
+
+    font-family: Impact, "Arial Narrow", sans-serif;
+
+    font-size: clamp(75px, 9vw, 135px);
+
+    line-height: 0.78;
+
+    font-style: italic;
+
+    letter-spacing: -3px;
+
+    text-transform: uppercase;
+}
+
+
+.contact-intro h1 span {
+    color: #e10600;
+}
+
+
+.contact-intro p {
+    max-width: 480px;
+
+    margin-top: 35px;
+
+    color: #999;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   RACE NUMBER
+   ========================================= */
+
+.race-number {
+    position: absolute;
+
+    left: -15px;
+    bottom: -90px;
+
+    font-family: Impact, sans-serif;
+
+    font-size: 150px;
+
+    font-style: italic;
+
+    color: transparent;
+
+    -webkit-text-stroke:
+        2px rgba(225,6,0,0.25);
+
+    pointer-events: none;
+}
+
+
+/* =========================================
+   CONTACT BOX
+   ========================================= */
+
+.contact-box {
+    position: relative;
+
+    padding: 35px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(30,30,30,0.95),
+            rgba(10,10,10,0.95)
+        );
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    box-shadow:
+        0 25px 80px rgba(0,0,0,0.45);
+
+    backdrop-filter: blur(15px);
+}
+
+
+.contact-box::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 4px;
+
+    background: #e10600;
+}
+
+
+/* =========================================
+   BOX TITLE
+   ========================================= */
+
+.box-title {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+
+    font-family: Impact, sans-serif;
+
+    font-size: 28px;
+
+    font-style: italic;
+
+    letter-spacing: 1px;
+}
+
+.box-title span {
+    flex: 1;
+
+    height: 1px;
+
+    background: rgba(255,255,255,0.12);
+}
+
+
+/* =========================================
+   CONTACT ITEM
+   ========================================= */
+
+.contact-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    padding: 17px 0;
+
+    border-bottom:
+        1px solid rgba(255,255,255,0.07);
+
+    transition: 0.3s ease;
+}
+
+
+.contact-item:hover {
+    padding-left: 10px;
+
+    border-color: #e10600;
+}
+
+
+.contact-icon {
+    flex-shrink: 0;
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background:
+        rgba(225,6,0,0.10);
+
+    border:
+        1px solid rgba(225,6,0,0.25);
+
+    color: #e10600;
+
+    font-size: 19px;
+
+    transition: 0.3s ease;
+}
+
+
+.contact-item:hover .contact-icon {
+    background: #e10600;
+
+    color: #fff;
+}
+
+
+.contact-text {
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+
+.contact-text small {
+    color: #666;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+.contact-text strong {
+    color: #ddd;
+
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+
+.arrow {
+    color: #555;
+
+    font-size: 20px;
+
+    transition: 0.3s ease;
+}
+
+
+.contact-item:hover .arrow {
+    color: #e10600;
+
+    transform: translateX(5px);
+}
+
+
+/* =========================================
+   SOCIAL AREA
+   ========================================= */
+
+.social-area {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 25px;
+
+    gap: 20px;
+}
+
+
+.social-area > span {
+    color: #555;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+.social-list {
+    display: flex;
+
+    gap: 8px;
+}
+
+
+.social-list a {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #151515;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    color: #aaa;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+
+.social-list a:hover {
+    color: white;
+
+    background: #e10600;
+
+    border-color: #e10600;
+
+    transform: translateY(-4px);
+}
+
+
+/* =========================================
+   BOTTOM LABEL
+   ========================================= */
+
+.bottom-label {
+    position: absolute;
+
+    z-index: 3;
+
+    left: 5%;
+    right: 5%;
+
+    bottom: 25px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: #444;
+
+    font-size: 9px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.bottom-label span:first-child {
+    color: #e10600;
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 900px) {
+
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+
+    .contact-slide {
+        min-height: 100vh;
+
+        overflow-y: auto;
+    }
+
+
+    .contact-intro h1 {
+        font-size: 85px;
+    }
+
+
+    .race-number {
+        display: none;
+    }
+
+
+    .contact-box {
+        max-width: 700px;
+
+        width: 100%;
+
+        margin: auto;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    .contact-wrapper {
+        width: 88%;
+
+        gap: 35px;
+
+        padding-top: 90px;
+    }
+
+
+    .small-title {
+        font-size: 10px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .contact-intro h1 {
+        font-size: 70px;
+
+        letter-spacing: -2px;
+    }
+
+
+    .contact-intro p {
+        margin-top: 25px;
+
+        font-size: 13px;
+    }
+
+
+    .contact-box {
+        padding: 25px 20px;
+    }
+
+
+    .box-title {
+        font-size: 24px;
+    }
+
+
+    .contact-item {
+        gap: 12px;
+    }
+
+
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+
+        font-size: 16px;
+    }
+
+
+    .contact-text strong {
+        font-size: 12px;
+    }
+
+
+    .social-area {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+
+    .bottom-label {
+        display: none;
+    }
+
+
+    .contact-slide::after {
+        font-size: 180px;
+
+        right: -20px;
+        bottom: -50px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 380px) {
+
+    .contact-intro h1 {
+        font-size: 58px;
+    }
+
+
+    .contact-box {
+        padding: 22px 16px;
+    }
+
+
+    .contact-text strong {
+        font-size: 11px;
+    }
+
+}
+
+</style>
